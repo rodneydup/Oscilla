@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/rondo/Software/Oscilla/Oscilla/build/debug/CMakeFiles/3.16.5/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/rondo/Software/Oscilla/build/debug/CMakeFiles/3.16.5/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,29 +23,29 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/rondo/Software/Oscilla/Oscilla/build/debug/CMakeFiles/3.16.5/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/rondo/Software/Oscilla/build/debug/CMakeFiles/3.16.5/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/rondo/Software/Oscilla/Oscilla/build/debug/CMakeFiles/CMakeTmp
+Change Dir: /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_cbaad/fast && /usr/bin/gmake -f CMakeFiles/cmTC_cbaad.dir/build.make CMakeFiles/cmTC_cbaad.dir/build
-gmake[1]: Entering directory '/home/rondo/Software/Oscilla/Oscilla/build/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cbaad.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_cbaad.dir/testCCompiler.c.o   -c /home/rondo/Software/Oscilla/Oscilla/build/debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_cbaad
-/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbaad.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cbaad.dir/testCCompiler.c.o  -o cmTC_cbaad 
-gmake[1]: Leaving directory '/home/rondo/Software/Oscilla/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_5fca4/fast && /usr/bin/gmake -f CMakeFiles/cmTC_5fca4.dir/build.make CMakeFiles/cmTC_5fca4.dir/build
+gmake[1]: Entering directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5fca4.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5fca4.dir/testCCompiler.c.o   -c /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_5fca4
+/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fca4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5fca4.dir/testCCompiler.c.o  -o cmTC_5fca4 
+gmake[1]: Leaving directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/rondo/Software/Oscilla/Oscilla/build/debug/CMakeFiles/CMakeTmp
+Change Dir: /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_73744/fast && /usr/bin/gmake -f CMakeFiles/cmTC_73744.dir/build.make CMakeFiles/cmTC_73744.dir/build
-gmake[1]: Entering directory '/home/rondo/Software/Oscilla/Oscilla/build/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_73744.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -v -o CMakeFiles/cmTC_73744.dir/CMakeCCompilerABI.c.o   -c /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/gmake cmTC_9c1da/fast && /usr/bin/gmake -f CMakeFiles/cmTC_9c1da.dir/build.make CMakeFiles/cmTC_9c1da.dir/build
+gmake[1]: Entering directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c1da.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_9c1da.dir/CMakeCCompilerABI.c.o   -c /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa
@@ -55,8 +55,8 @@ Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.0-9' --with-
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 10.2.0 (Debian 10.2.0-9) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_73744.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/10/cc1 -quiet -v -imultiarch x86_64-linux-gnu /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_73744.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -o /tmp/ccTC7Wfi.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9c1da.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/10/cc1 -quiet -v -imultiarch x86_64-linux-gnu /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_9c1da.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -o /tmp/ccOpsryT.s
 GNU C17 (Debian 10.2.0-9) version 10.2.0 (x86_64-linux-gnu)
 	compiled by GNU C version 10.2.0, GMP version 6.2.0, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.22.1-GMP
 
@@ -79,15 +79,15 @@ GNU C17 (Debian 10.2.0-9) version 10.2.0 (x86_64-linux-gnu)
 warning: GMP header version 6.2.0 differs from library version 6.2.1.
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 07f33a5aca850feee3d70df8e8490e17
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_73744.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_73744.dir/CMakeCCompilerABI.c.o /tmp/ccTC7Wfi.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9c1da.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_9c1da.dir/CMakeCCompilerABI.c.o /tmp/ccOpsryT.s
 GNU assembler version 2.35.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.35.1
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/home/rondo/.guix-profile/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/rondo/.guix-profile/lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_73744.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-Linking C executable cmTC_73744
-/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73744.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_73744.dir/CMakeCCompilerABI.c.o  -o cmTC_73744 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9c1da.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_9c1da
+/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c1da.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_9c1da.dir/CMakeCCompilerABI.c.o  -o cmTC_9c1da 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper
@@ -100,10 +100,10 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 10.2.0 (Debian 10.2.0-9) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/home/rondo/.guix-profile/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/rondo/.guix-profile/lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_73744' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEXAxwJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_73744 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/home/rondo/.guix-profile/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/rondo/.guix-profile/lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_73744.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_73744' '-mtune=generic' '-march=x86-64'
-gmake[1]: Leaving directory '/home/rondo/Software/Oscilla/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9c1da' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEkIeph.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9c1da /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/home/rondo/.guix-profile/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/rondo/.guix-profile/lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_9c1da.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9c1da' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
 
 
 
@@ -126,12 +126,12 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/rondo/Software/Oscilla/Oscilla/build/debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_73744/fast && /usr/bin/gmake -f CMakeFiles/cmTC_73744.dir/build.make CMakeFiles/cmTC_73744.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/rondo/Software/Oscilla/Oscilla/build/debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_73744.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_73744.dir/CMakeCCompilerABI.c.o   -c /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_9c1da/fast && /usr/bin/gmake -f CMakeFiles/cmTC_9c1da.dir/build.make CMakeFiles/cmTC_9c1da.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_9c1da.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_9c1da.dir/CMakeCCompilerABI.c.o   -c /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa]
@@ -141,8 +141,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 10.2.0 (Debian 10.2.0-9) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_73744.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/cc1 -quiet -v -imultiarch x86_64-linux-gnu /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_73744.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -o /tmp/ccTC7Wfi.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9c1da.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/cc1 -quiet -v -imultiarch x86_64-linux-gnu /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_9c1da.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -o /tmp/ccOpsryT.s]
   ignore line: [GNU C17 (Debian 10.2.0-9) version 10.2.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.2.0  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.22.1-GMP]
   ignore line: []
@@ -165,15 +165,15 @@ Parsed C implicit link information from above output:
   ignore line: [warning: GMP header version 6.2.0 differs from library version 6.2.1.]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 07f33a5aca850feee3d70df8e8490e17]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_73744.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_73744.dir/CMakeCCompilerABI.c.o /tmp/ccTC7Wfi.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9c1da.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_9c1da.dir/CMakeCCompilerABI.c.o /tmp/ccOpsryT.s]
   ignore line: [GNU assembler version 2.35.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.35.1]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/home/rondo/.guix-profile/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/rondo/.guix-profile/lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_73744.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking C executable cmTC_73744]
-  ignore line: [/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73744.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_73744.dir/CMakeCCompilerABI.c.o  -o cmTC_73744 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9c1da.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_9c1da]
+  ignore line: [/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c1da.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_9c1da.dir/CMakeCCompilerABI.c.o  -o cmTC_9c1da ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper]
@@ -186,13 +186,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 10.2.0 (Debian 10.2.0-9) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/home/rondo/.guix-profile/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/rondo/.guix-profile/lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_73744' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEXAxwJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_73744 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/home/rondo/.guix-profile/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/rondo/.guix-profile/lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_73744.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9c1da' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEkIeph.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9c1da /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/home/rondo/.guix-profile/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/rondo/.guix-profile/lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_9c1da.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccEXAxwJ.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccEkIeph.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -209,7 +209,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_73744] ==> ignore
+    arg [cmTC_9c1da] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o] ==> ignore
@@ -225,7 +225,7 @@ Parsed C implicit link information from above output:
     arg [-L/home/rondo/.guix-profile/lib] ==> dir [/home/rondo/.guix-profile/lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..]
-    arg [CMakeFiles/cmTC_73744.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_9c1da.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -257,26 +257,26 @@ Parsed C implicit link information from above output:
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/rondo/Software/Oscilla/Oscilla/build/debug/CMakeFiles/CMakeTmp
+Change Dir: /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_04a6d/fast && /usr/bin/gmake -f CMakeFiles/cmTC_04a6d.dir/build.make CMakeFiles/cmTC_04a6d.dir/build
-gmake[1]: Entering directory '/home/rondo/Software/Oscilla/Oscilla/build/debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_04a6d.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_04a6d.dir/testCXXCompiler.cxx.o -c /home/rondo/Software/Oscilla/Oscilla/build/debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_04a6d
-/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04a6d.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_04a6d.dir/testCXXCompiler.cxx.o  -o cmTC_04a6d 
-gmake[1]: Leaving directory '/home/rondo/Software/Oscilla/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_9c208/fast && /usr/bin/gmake -f CMakeFiles/cmTC_9c208.dir/build.make CMakeFiles/cmTC_9c208.dir/build
+gmake[1]: Entering directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9c208.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_9c208.dir/testCXXCompiler.cxx.o -c /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_9c208
+/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c208.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_9c208.dir/testCXXCompiler.cxx.o  -o cmTC_9c208 
+gmake[1]: Leaving directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/rondo/Software/Oscilla/Oscilla/build/debug/CMakeFiles/CMakeTmp
+Change Dir: /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_b44cd/fast && /usr/bin/gmake -f CMakeFiles/cmTC_b44cd.dir/build.make CMakeFiles/cmTC_b44cd.dir/build
-gmake[1]: Entering directory '/home/rondo/Software/Oscilla/Oscilla/build/debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b44cd.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++    -v -o CMakeFiles/cmTC_b44cd.dir/CMakeCXXCompilerABI.cpp.o -c /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/gmake cmTC_5cf47/fast && /usr/bin/gmake -f CMakeFiles/cmTC_5cf47.dir/build.make CMakeFiles/cmTC_5cf47.dir/build
+gmake[1]: Entering directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5cf47.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_5cf47.dir/CMakeCXXCompilerABI.cpp.o -c /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa
@@ -286,8 +286,8 @@ Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.0-9' --with-
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 10.2.0 (Debian 10.2.0-9) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b44cd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/10/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_b44cd.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -o /tmp/ccisNmKX.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5cf47.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/10/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_5cf47.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -o /tmp/ccny9Z2G.s
 GNU C++14 (Debian 10.2.0-9) version 10.2.0 (x86_64-linux-gnu)
 	compiled by GNU C version 10.2.0, GMP version 6.2.0, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.22.1-GMP
 
@@ -314,15 +314,15 @@ GNU C++14 (Debian 10.2.0-9) version 10.2.0 (x86_64-linux-gnu)
 warning: GMP header version 6.2.0 differs from library version 6.2.1.
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 00266925ef7ee0e752ed38cfa1b8991d
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b44cd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_b44cd.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccisNmKX.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5cf47.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_5cf47.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccny9Z2G.s
 GNU assembler version 2.35.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.35.1
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/home/rondo/.guix-profile/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/rondo/.guix-profile/lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b44cd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-Linking CXX executable cmTC_b44cd
-/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b44cd.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_b44cd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b44cd 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5cf47.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_5cf47
+/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cf47.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_5cf47.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5cf47 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper
@@ -335,10 +335,10 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 10.2.0 (Debian 10.2.0-9) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/home/rondo/.guix-profile/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/rondo/.guix-profile/lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b44cd' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDsCUFk.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b44cd /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/home/rondo/.guix-profile/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/rondo/.guix-profile/lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_b44cd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b44cd' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-gmake[1]: Leaving directory '/home/rondo/Software/Oscilla/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5cf47' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZqaKu4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5cf47 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/home/rondo/.guix-profile/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/rondo/.guix-profile/lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_5cf47.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5cf47' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
 
 
 
@@ -367,12 +367,12 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/rondo/Software/Oscilla/Oscilla/build/debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_b44cd/fast && /usr/bin/gmake -f CMakeFiles/cmTC_b44cd.dir/build.make CMakeFiles/cmTC_b44cd.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/rondo/Software/Oscilla/Oscilla/build/debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_b44cd.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_b44cd.dir/CMakeCXXCompilerABI.cpp.o -c /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_5cf47/fast && /usr/bin/gmake -f CMakeFiles/cmTC_5cf47.dir/build.make CMakeFiles/cmTC_5cf47.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_5cf47.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_5cf47.dir/CMakeCXXCompilerABI.cpp.o -c /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa]
@@ -382,8 +382,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 10.2.0 (Debian 10.2.0-9) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b44cd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_b44cd.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -o /tmp/ccisNmKX.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5cf47.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_5cf47.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -o /tmp/ccny9Z2G.s]
   ignore line: [GNU C++14 (Debian 10.2.0-9) version 10.2.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.2.0  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.22.1-GMP]
   ignore line: []
@@ -410,15 +410,15 @@ Parsed CXX implicit link information from above output:
   ignore line: [warning: GMP header version 6.2.0 differs from library version 6.2.1.]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 00266925ef7ee0e752ed38cfa1b8991d]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b44cd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_b44cd.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccisNmKX.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5cf47.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_5cf47.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccny9Z2G.s]
   ignore line: [GNU assembler version 2.35.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.35.1]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/home/rondo/.guix-profile/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/rondo/.guix-profile/lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b44cd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking CXX executable cmTC_b44cd]
-  ignore line: [/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b44cd.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_b44cd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b44cd ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5cf47.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_5cf47]
+  ignore line: [/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cf47.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_5cf47.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5cf47 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper]
@@ -431,13 +431,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 10.2.0 (Debian 10.2.0-9) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/home/rondo/.guix-profile/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/rondo/.guix-profile/lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b44cd' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDsCUFk.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b44cd /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/home/rondo/.guix-profile/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/rondo/.guix-profile/lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_b44cd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5cf47' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZqaKu4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5cf47 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/home/rondo/.guix-profile/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/rondo/.guix-profile/lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_5cf47.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccDsCUFk.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccZqaKu4.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -454,7 +454,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b44cd] ==> ignore
+    arg [cmTC_5cf47] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o] ==> ignore
@@ -470,7 +470,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/home/rondo/.guix-profile/lib] ==> dir [/home/rondo/.guix-profile/lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..]
-    arg [CMakeFiles/cmTC_b44cd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_5cf47.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -497,3 +497,186 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_38280/fast && /usr/bin/gmake -f CMakeFiles/cmTC_38280.dir/build.make CMakeFiles/cmTC_38280.dir/build
+gmake[1]: Entering directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_38280.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_38280.dir/src.cxx.o -c /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_38280
+/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38280.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORTS_CXX11    -rdynamic CMakeFiles/cmTC_38280.dir/src.cxx.o  -o cmTC_38280 
+gmake[1]: Leaving directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_33666/fast && /usr/bin/gmake -f CMakeFiles/cmTC_33666.dir/build.make CMakeFiles/cmTC_33666.dir/build
+gmake[1]: Entering directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_33666.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_33666.dir/src.cxx.o -c /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_33666
+/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33666.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORTS_CXX0X    -rdynamic CMakeFiles/cmTC_33666.dir/src.cxx.o  -o cmTC_33666 
+gmake[1]: Leaving directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_622cf/fast && /usr/bin/gmake -f CMakeFiles/cmTC_622cf.dir/build.make CMakeFiles/cmTC_622cf.dir/build
+gmake[1]: Entering directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_622cf.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_622cf.dir/CheckIncludeFile.c.o   -c /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_622cf
+/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_622cf.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_622cf.dir/CheckIncludeFile.c.o  -o cmTC_622cf 
+gmake[1]: Leaving directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_94b8b/fast && /usr/bin/gmake -f CMakeFiles/cmTC_94b8b.dir/build.make CMakeFiles/cmTC_94b8b.dir/build
+gmake[1]: Entering directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94b8b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_94b8b.dir/CheckFunctionExists.c.o   -c /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_94b8b
+/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94b8b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_94b8b.dir/CheckFunctionExists.c.o  -o cmTC_94b8b  -lpthread 
+gmake[1]: Leaving directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2e1a2/fast && /usr/bin/gmake -f CMakeFiles/cmTC_2e1a2.dir/build.make CMakeFiles/cmTC_2e1a2.dir/build
+gmake[1]: Entering directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e1a2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_2e1a2.dir/CheckFunctionExists.c.o   -c /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2e1a2
+/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e1a2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_2e1a2.dir/CheckFunctionExists.c.o  -o cmTC_2e1a2  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+gmake[1]: Leaving directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d43e8/fast && /usr/bin/gmake -f CMakeFiles/cmTC_d43e8.dir/build.make CMakeFiles/cmTC_d43e8.dir/build
+gmake[1]: Entering directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d43e8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_d43e8.dir/CheckFunctionExists.c.o   -c /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d43e8
+/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d43e8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_d43e8.dir/CheckFunctionExists.c.o  -o cmTC_d43e8 
+gmake[1]: Leaving directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ad98b/fast && /usr/bin/gmake -f CMakeFiles/cmTC_ad98b.dir/build.make CMakeFiles/cmTC_ad98b.dir/build
+gmake[1]: Entering directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad98b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_ad98b.dir/CheckFunctionExists.c.o   -c /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ad98b
+/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad98b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_ad98b.dir/CheckFunctionExists.c.o  -o cmTC_ad98b 
+gmake[1]: Leaving directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6c98b/fast && /usr/bin/gmake -f CMakeFiles/cmTC_6c98b.dir/build.make CMakeFiles/cmTC_6c98b.dir/build
+gmake[1]: Entering directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c98b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_6c98b.dir/CheckFunctionExists.c.o   -c /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6c98b
+/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c98b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_6c98b.dir/CheckFunctionExists.c.o  -o cmTC_6c98b 
+gmake[1]: Leaving directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_76d9e/fast && /usr/bin/gmake -f CMakeFiles/cmTC_76d9e.dir/build.make CMakeFiles/cmTC_76d9e.dir/build
+gmake[1]: Entering directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76d9e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_76d9e.dir/CheckFunctionExists.c.o   -c /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_76d9e
+/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76d9e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_76d9e.dir/CheckFunctionExists.c.o  -o cmTC_76d9e 
+gmake[1]: Leaving directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_bbfcf/fast && /usr/bin/gmake -f CMakeFiles/cmTC_bbfcf.dir/build.make CMakeFiles/cmTC_bbfcf.dir/build
+gmake[1]: Entering directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bbfcf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_bbfcf.dir/CheckFunctionExists.c.o   -c /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bbfcf
+/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbfcf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_bbfcf.dir/CheckFunctionExists.c.o  -o cmTC_bbfcf  -lICE 
+gmake[1]: Leaving directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b359e/fast && /usr/bin/gmake -f CMakeFiles/cmTC_b359e.dir/build.make CMakeFiles/cmTC_b359e.dir/build
+gmake[1]: Entering directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b359e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTC_b359e.dir/CheckFunctionExists.c.o   -c /gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b359e
+/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b359e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gettimeofday    -rdynamic CMakeFiles/cmTC_b359e.dir/CheckFunctionExists.c.o  -o cmTC_b359e 
+gmake[1]: Leaving directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the jack_port_rename exist passed with the following output:
+Change Dir: /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_04140/fast && /usr/bin/gmake -f CMakeFiles/cmTC_04140.dir/build.make CMakeFiles/cmTC_04140.dir/build
+gmake[1]: Entering directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04140.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_04140.dir/CheckSymbolExists.c.o   -c /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_04140
+/gnu/store/7mlka6pax3qx7pbk25ic47p8g71i1nqw-cmake-3.16.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04140.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_04140.dir/CheckSymbolExists.c.o  -o cmTC_04140  -ljack 
+gmake[1]: Leaving directory '/home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp'
+
+
+File /home/rondo/Software/Oscilla/build/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/include/jack/jack.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef jack_port_rename
+  return ((int*)(&jack_port_rename))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
