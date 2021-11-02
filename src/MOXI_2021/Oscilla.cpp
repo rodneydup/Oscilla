@@ -11,13 +11,13 @@
 using namespace al;
 
 struct Oscilla : public App {
-  unsigned int BufferSize = 32768;
+  unsigned int BufferSize = 8192;
   bool drawGUI = false;
 
-  ParameterInt tailLength{"Tail Length", "", 2048, "", 1024, 8192};
-  Parameter thicknessSlider{"Thickness", 0.7f, 0.0f, 1.0f};
+  ParameterInt tailLength{"Tail Length", "", 1024, "", 512, 4096};
+  Parameter thicknessSlider{"Thickness", 0.4f, 0.0f, 1.0f};
   float thickness = (thicknessSlider * 1.5f) + 0.05;
-  Parameter scale{"scale", 0.9f, 0.01f, 1.0f};
+  Parameter scale{"scale", 0.3f, 0.01f, 1.0f};
 
   ParameterColor color{"Color", "", Color(0.0, 1.0, 0.0)};  // color picker
 
@@ -31,27 +31,34 @@ struct Oscilla : public App {
   RingBuffer Buffer2Y{BufferSize};
   RingBuffer Buffer3X{BufferSize};
   RingBuffer Buffer3Y{BufferSize};
+  RingBuffer Buffer3Z{BufferSize};
+  RingBuffer Buffer3Brightness{BufferSize};
 
   ShaderProgram lineShader;
   Texture lineTexture;
   Texture pointTexture;
-
-  osc::Recv server;
+  std::string oscServerAddr = "127.0.0.1";
+  int oscServerPort = 12000;
+  float oscServerTimeout = 0.05;
+  osc::Recv server{oscServerPort, oscServerAddr.c_str(), oscServerTimeout};
 
   void onInit() override {  // Called on app start
-    title("QHOSYN");
-    audioIO().setStreamName("QHOSYN");
     std::cout << "onInit()" << std::endl;
+    title("Oscilla");
+    audioIO().setStreamName("Oscilla");
     thicknessSlider.registerChangeCallback([&](float value) { thickness = (value * 1.5) + 0.05; });
+    server.stop();
+    server.open(oscServerPort, oscServerAddr.c_str(), oscServerTimeout);
+    server.handler(oscDomain()->handler());
+    server.start();
+    std::cout << "OSC Server (Listener) Settings:" << std::endl;
+    std::cout << "IP Address: " << oscServerAddr << std::endl;
+    std::cout << "Port: " << oscServerPort << std::endl;
+    std::cout << "Timeout: " << oscServerTimeout << std::endl;
   }
 
   void onCreate() override {  // Called when graphics context is available
     std::cout << "onCreate()" << std::endl;
-
-    server.open(12000, "127.0.0.1", 0.05);
-
-    server.handler(oscDomain()->handler());
-    server.start();
 
     imguiInit();
 
@@ -73,6 +80,7 @@ struct Oscilla : public App {
       }
     }
     pointTexture.submit(&alpha[0]);
+
     lineTexture.create1D(256, Texture::R8, Texture::RED, Texture::SHORT);
     std::vector<short> beta;
     beta.resize(lineTexture.width());
@@ -106,7 +114,7 @@ struct Oscilla : public App {
     if (start < 0) start = BufferSize + start;
     for (unsigned i = 0; i < tailLength;
          i++) {  // this loop updates all the points on the scope trail
-      scope2.vertex(Buffer2X[(start + i) % BufferSize] * aspect,
+      scope2.vertex(Buffer2X[(start + i) % BufferSize] * aspect + 0.5,
                     Buffer2Y[(start + i) % BufferSize]);
       scope2.color(color.get().r, color.get().g, color.get().b,
                    (float(i) / tailLength));  // add color for each vertex
@@ -119,10 +127,11 @@ struct Oscilla : public App {
     if (start < 0) start = BufferSize + start;
     for (unsigned i = 0; i < tailLength;
          i++) {  // this loop updates all the points on the scope trail
-      scope3.vertex((Buffer3X[(start + i) % BufferSize] * aspect) + 0.5,
-                    Buffer3Y[(start + i) % BufferSize]);
+      scope3.vertex((Buffer3X[(start + i) % BufferSize] * aspect),
+                    Buffer3Y[(start + i) % BufferSize], Buffer3Z[(start + i) % BufferSize]);
       scope3.color(color.get().r, color.get().g, color.get().b,
-                   (float(i) / tailLength));  // add color for each vertex
+                   (float(i) / tailLength) *
+                     Buffer3Brightness[(start + i) % BufferSize]);  // add color for each vertex
       scope3.texCoord(thickness, 0.0);
     }
   }
@@ -130,14 +139,17 @@ struct Oscilla : public App {
   void onDraw(Graphics &g) override {  // Draw function
     g.clear(0);
     g.camera(Viewpoint::UNIT_ORTHO_INCLUSIVE);  // set camera position (x: -1 to 1, y: -1 to 1)
+    g.lighting(true);
 
     gl::blending(true);                                      // needed for transparency
     gl::blendMode(GL_SRC_ALPHA, GL_DST_ALPHA, GL_FUNC_ADD);  // needed for transparency
 
-    g.meshColor();         // set scope color (according to color set by color picker)
     lineTexture.bind();    // texture binding
+    g.meshColor();         // set scope color (according to color set by color picker)
     g.shader(lineShader);  // run shader
-    g.draw(scope1);        // draw scope
+    g.draw(scope1);        // draw scope 2
+    g.draw(scope2);        // draw scope 2
+    g.draw(scope3);        // draw scope 3
     lineTexture.unbind();
 
     if (drawGUI) {  // draw the GUI
@@ -166,19 +178,70 @@ struct Oscilla : public App {
 
   void onSound(AudioIOData &io) override {  // Audio callback
     while (io()) {
+      // float throwAway = io.in(0);
+      // throwAway = io.in(1);
+      // throwAway = io.in(2);
       Buffer1X.push_back(io.in(0) * scale);
       Buffer1Y.push_back(io.in(1) * scale);
-      // Buffer2X.push_back(io.in(2) * scale);
-      // Buffer2Y.push_back(io.in(3) * scale);
-      // Buffer3X.push_back(io.in(4) * scale);
-      // Buffer3Y.push_back(io.in(5) * scale);
+      Buffer2X.push_back(io.in(2) * scale);
+      Buffer2Y.push_back(io.in(3) * scale);
+      Buffer3X.push_back(io.in(4) * scale);
+      Buffer3Y.push_back(io.in(5) * scale);
+      Buffer3Z.push_back(io.in(6) * scale);
+      Buffer3Brightness.push_back(io.in(7));
     }
   }
 
   void onMessage(osc::Message &m) override {
     m.print();
     // Check that the address and tags match what we expect
-    if (m.addressPattern() == "/hue") {
+    if (m.addressPattern() == "/freq1") {
+      // Extract the data out of the packet
+      std::string str;
+      float val;
+
+      m >> val;
+
+      val = fmod(abs(val), 1.0);
+      if (val < 0.2) {
+        color = Color(1, val * 5, 0);
+      } else if (val < 0.4) {
+        val = (val - 0.2) * 5;
+        color = Color(1 - val, 1, 0);
+      } else if (val < 0.6) {
+        val = (val - 0.4) * 5;
+        color = Color(0, 1, val);
+      } else if (val < 0.8) {
+        val = (val - 0.6) * 5;
+        color = Color(0, 1 - val, 1);
+      } else if (val < 1) {
+        val = (val - 0.8) * 5;
+        color = Color(val, 0, 1);
+      }
+    } else if (m.addressPattern() == "/freq2") {
+      // Extract the data out of the packet
+      std::string str;
+      float val;
+
+      m >> val;
+
+      val = fmod(abs(val), 1.0);
+      if (val < 0.2) {
+        color = Color(1, val * 5, 0);
+      } else if (val < 0.4) {
+        val = (val - 0.2) * 5;
+        color = Color(1 - val, 1, 0);
+      } else if (val < 0.6) {
+        val = (val - 0.4) * 5;
+        color = Color(0, 1, val);
+      } else if (val < 0.8) {
+        val = (val - 0.6) * 5;
+        color = Color(0, 1 - val, 1);
+      } else if (val < 1) {
+        val = (val - 0.8) * 5;
+        color = Color(val, 0, 1);
+      }
+    } else if (m.addressPattern() == "/freq3") {
       // Extract the data out of the packet
       std::string str;
       float val;
@@ -234,20 +297,21 @@ int main() {
   Oscilla app;
   app.title("Oscilla");
 
-  // // find soundflower exact name and make that default audio device
-  // int x = 0;
-  // std::string s2 = "Soundflower";
-  // for (int i = 0; i < AudioDevice::numDevices(); i++) {
-  //   AudioDevice dev(i);
-  //   std::string s1 = dev.name();
-  //   if (s1.find(s2) != std::string::npos) {
-  //     x = i;
-  //   }
-  // }
-  // AudioDevice dev(x);
+  // find soundflower exact name and make that default audio device
+  int x = 0;
+  std::string s2 = "pure_data";
+  for (int i = 0; i < AudioDevice::numDevices(); i++) {
+    AudioDevice dev(i);
+    std::string s1 = dev.name();
+    if (s1.find(s2) != std::string::npos) {
+      x = i;
+    }
+  }
+  AudioDevice dev(x);
+  dev.print();
 
   // find soundflower exact name and make that default audio device
-  app.configureAudio(48000, 1024, 0, 6);
+  app.configureAudio(dev, 48000, 1024, 0, 8);
   app.start();
   return 0;
 }

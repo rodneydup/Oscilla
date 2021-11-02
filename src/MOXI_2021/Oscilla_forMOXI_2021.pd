@@ -1,23 +1,39 @@
-#N canvas 968 38 944 1009 10;
+#N canvas 1928 38 944 1034 10;
 #X obj 62 70 tgl 15 1 empty empty ON_OFF 17 7 0 10 #fc0400 #000000
 #000000 1 1;
 #X obj 75 94 switch~;
-#N canvas 424 563 736 484 osc 0;
+#N canvas 8 8 1904 1064 osc 0;
 #X obj 296 143 list prepend send;
 #X obj 296 168 list trim;
 #X obj 301 290 netsend -u -b;
 #X msg 12 91 disconnect;
-#X obj 296 118 oscformat /freq;
 #X msg 91 91 connect 127.0.0.1 12000;
 #X obj 90 56 loadbang;
 #X obj 296 93 r rm-freq;
+#X obj 296 118 oscformat /freq1;
+#X obj 424 143 list prepend send;
+#X obj 424 168 list trim;
+#X obj 424 118 oscformat /freq2;
+#X obj 424 93 r trem-freq;
+#X obj 559 144 list prepend send;
+#X obj 559 169 list trim;
+#X obj 559 94 r 3d-freq;
+#X obj 559 119 oscformat /freq3;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 3 0 2 0;
-#X connect 4 0 0 0;
-#X connect 5 0 2 0;
-#X connect 6 0 5 0;
-#X connect 7 0 4 0;
+#X connect 4 0 2 0;
+#X connect 5 0 4 0;
+#X connect 6 0 7 0;
+#X connect 7 0 0 0;
+#X connect 8 0 9 0;
+#X connect 9 0 2 0;
+#X connect 10 0 8 0;
+#X connect 11 0 10 0;
+#X connect 12 0 13 0;
+#X connect 13 0 2 0;
+#X connect 14 0 15 0;
+#X connect 15 0 12 0;
 #X restore 44 144 pd osc;
 #X obj 43 94 dsp~;
 #X msg 62 48 1;
@@ -26,11 +42,11 @@
 #X obj 344 37 vsl 25 93 0 1 0 1 scope1-size empty Scope\ 1\ Size -20
 -9 0 10 #fcfcfc #000000 #000000 3900 1;
 #X obj 60 22 loadbang;
-#N canvas 968 563 944 484 audio 0;
+#N canvas 968 8 944 1064 audio 0;
 #X obj 103 337 *~;
 #X obj 118 312 / 100;
 #X obj 130 237 nbx 5 14 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10
-#fcfcfc #000000 #000000 818.898 256 0;
+#fcfcfc #000000 #000000 519.685 256 0;
 #X obj 88 403 fiddle~;
 #X obj 84 236 adc~ 1;
 #X obj 132 457 dbtorms;
@@ -48,7 +64,7 @@
 #X obj 406 343 *~;
 #X obj 421 318 / 100;
 #X obj 433 241 nbx 5 14 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10
-#fcfcfc #000000 #000000 803.15 256 0;
+#fcfcfc #000000 #000000 496.063 256 0;
 #X obj 391 409 fiddle~;
 #X obj 435 463 dbtorms;
 #X obj 435 515 line;
@@ -66,7 +82,7 @@
 #X obj 692 341 *~;
 #X obj 707 316 / 100;
 #X obj 721 239 nbx 5 14 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10
-#fcfcfc #000000 #000000 814.961 256 0;
+#fcfcfc #000000 #000000 492.126 256 0;
 #X obj 677 407 fiddle~;
 #X obj 721 461 dbtorms;
 #X obj 721 513 line;
@@ -81,12 +97,12 @@
 #X obj 692 364 s~ mic3-input;
 #X obj 643 571 s mic3-freq;
 #X obj 721 569 s mic3-amplitude;
-#X obj 379 58 vsl 15 128 0 1000 0 0 empty empty Mic\ 1 -5 -9 0 10 #fcfcfc
-#000000 #000000 10400 1;
+#X obj 379 58 vsl 15 128 0 1000 0 1 empty empty Mic\ 1 -5 -9 0 10 #fcfcfc
+#000000 #000000 6600 1;
 #X obj 435 58 vsl 15 128 0 1000 0 1 empty empty Mic\ 2 -5 -9 0 10 #fcfcfc
-#000000 #000000 10200 1;
+#000000 #000000 6300 1;
 #X obj 491 58 vsl 15 128 0 1000 0 1 empty empty Mic\ 3 -5 -9 0 10 #fcfcfc
-#000000 #000000 10350 1;
+#000000 #000000 6250 1;
 #X connect 0 0 9 0;
 #X connect 1 0 0 1;
 #X connect 2 0 1 0;
@@ -138,10 +154,10 @@
 #X obj 720 37 vsl 26 91 0 0.8 0 1 output3-volume empty Output\ 3\ Volume
 -25 -9 0 10 #fcfcfc #000000 #000000 9000 1;
 #X obj 582 37 vsl 25 93 0 1 0 1 scope2-size empty Scope\ 2\ Size -20
--9 0 10 #fcfcfc #000000 #000000 9200 1;
+-9 0 10 #fcfcfc #000000 #000000 4200 1;
 #X obj 822 37 vsl 25 93 0 1 0 1 scope3-size empty Scope\ 3\ Size -20
--9 0 10 #fcfcfc #000000 #000000 9200 1;
-#N canvas 968 563 944 509 oscilla-tremolo 0;
+-9 0 10 #fcfcfc #000000 #000000 4300 1;
+#N canvas 8 8 1904 1039 oscilla-tremolo 0;
 #X obj 187 440 outlet~;
 #X obj 243 440 outlet~;
 #X obj 309 227 / 100;
@@ -153,30 +169,9 @@
 #X obj 243 227 +~ 0.25;
 #X obj 309 263 sig~;
 #X obj 187 115 nbx 5 14 -1e+37 1e+37 0 1 empty empty base_frequency
-0 -8 0 10 #00fc04 #000000 #000000 7.71469 256 0;
+0 -8 0 10 #00fc04 #000000 #000000 1.71407 256 0;
 #X obj 310 113 nbx 5 14 -1e+37 1e+37 0 1 empty empty scale 0 -8 0 10
 #00fc04 #000000 #000000 85 256 0;
-#N canvas 1448 563 464 484 frequencyChanger 0;
-#X obj 125 388 outlet;
-#X obj 125 363 line;
-#X obj 125 130 inlet;
-#X obj 125 240 random 10000;
-#X obj 125 290 + 0.5;
-#X obj 125 265 / 500;
-#X text 230 260 random frequencies in range 0.5-20.5, f 18;
-#X msg 125 338 \$1 6000;
-#X obj 125 172 metro 15000;
-#X connect 1 0 0 0;
-#X connect 2 0 8 0;
-#X connect 3 0 5 0;
-#X connect 4 0 7 0;
-#X connect 5 0 4 0;
-#X connect 7 0 1 0;
-#X connect 8 0 3 0;
-#X restore 187 70 pd frequencyChanger;
-#X obj 187 26 loadbang;
-#X obj 187 49 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
-#000000 1 1;
 #X obj 299 440 outlet~;
 #X obj 187 402 *~;
 #X obj 52 370 *;
@@ -187,35 +182,36 @@
 #X obj 360 263 r~ mic2-input;
 #X obj 333 363 r scope2-size;
 #X obj 111 148 s trem-freq;
+#X obj 185 47 r mic1-freq;
+#X obj 188 75 / 100;
 #X connect 2 0 9 0;
 #X connect 3 0 6 0;
 #X connect 3 0 8 0;
-#X connect 4 0 16 0;
-#X connect 4 0 18 0;
-#X connect 5 0 19 0;
+#X connect 4 0 13 0;
+#X connect 4 0 15 0;
+#X connect 5 0 16 0;
 #X connect 6 0 4 0;
 #X connect 7 0 5 0;
 #X connect 8 0 7 0;
 #X connect 9 0 5 1;
 #X connect 9 0 4 1;
 #X connect 10 0 3 0;
-#X connect 10 0 24 0;
+#X connect 10 0 21 0;
 #X connect 11 0 2 0;
-#X connect 12 0 10 0;
-#X connect 13 0 14 0;
-#X connect 14 0 12 0;
-#X connect 16 0 0 0;
-#X connect 17 0 16 1;
-#X connect 18 0 1 0;
-#X connect 19 0 15 0;
-#X connect 20 0 17 0;
-#X connect 21 0 17 1;
-#X connect 22 0 5 1;
-#X connect 22 0 4 1;
-#X connect 23 0 18 1;
-#X connect 23 0 19 1;
+#X connect 13 0 0 0;
+#X connect 14 0 13 1;
+#X connect 15 0 1 0;
+#X connect 16 0 12 0;
+#X connect 17 0 14 0;
+#X connect 18 0 14 1;
+#X connect 19 0 5 1;
+#X connect 19 0 4 1;
+#X connect 20 0 15 1;
+#X connect 20 0 16 1;
+#X connect 22 0 23 0;
+#X connect 23 0 10 0;
 #X restore 507 166 pd oscilla-tremolo;
-#N canvas 8 563 944 484 oscilla-ringmod 0;
+#N canvas 8 8 1904 1064 oscilla-ringmod 0;
 #X obj 187 440 outlet~;
 #X obj 243 440 outlet~;
 #X obj 309 227 / 100;
@@ -228,7 +224,7 @@
 #X obj 309 263 sig~;
 #X obj 360 263 r~ mic1-input;
 #X obj 187 115 nbx 5 14 -1e+37 1e+37 0 1 empty empty base_frequency
-0 -8 0 10 #00fc04 #000000 #000000 514 256 0;
+0 -8 0 10 #00fc04 #000000 #000000 203 256 0;
 #X obj 310 113 nbx 5 14 -1e+37 1e+37 0 1 empty empty scale 0 -8 0 10
 #00fc04 #000000 #000000 80 256 0;
 #N canvas 1448 563 464 509 frequencyChanger 0;
@@ -289,9 +285,11 @@
 #X restore 251 165 pd oscilla-ringmod;
 #X obj 511 224 dac~ 2;
 #X obj 559 223 dac~ 6 7;
-#N canvas 8 38 944 509 oscilla-third 0;
-#X obj 187 440 outlet~;
-#X obj 243 440 outlet~;
+#X obj 731 225 dac~ 3;
+#X obj 779 224 dac~ 8 9 10 11;
+#N canvas 8 8 1904 1039 oscilla-3d 0;
+#X obj 171 541 outlet~;
+#X obj 241 541 outlet~;
 #X obj 309 227 / 100;
 #X obj 187 190 phasor~;
 #X obj 188 319 *~;
@@ -301,7 +299,7 @@
 #X obj 243 227 +~ 0.25;
 #X obj 309 263 sig~;
 #X obj 187 115 nbx 5 14 -1e+37 1e+37 0 1 empty empty base_frequency
-0 -8 0 10 #00fc04 #000000 #000000 526 256 0;
+0 -8 0 10 #00fc04 #000000 #000000 755 256 0;
 #X obj 310 113 nbx 5 14 -1e+37 1e+37 0 1 empty empty scale 0 -8 0 10
 #00fc04 #000000 #000000 85 256 0;
 #N canvas 0 0 450 300 frequencyChanger 0;
@@ -322,29 +320,40 @@
 #X obj 187 26 loadbang;
 #X obj 187 49 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 1 1;
-#X obj 299 440 outlet~;
-#X obj 187 402 *~;
+#X obj 297 541 outlet~;
+#X obj 171 503 *~;
 #X obj 52 370 *;
-#X obj 243 402 *~;
-#X obj 299 402 *~;
+#X obj 241 503 *~;
+#X obj 297 503 *~;
 #X obj 53 306 r mic3-amplitude;
 #X obj 69 335 r output3-volume;
 #X obj 360 263 r~ mic3-input;
-#X obj 333 363 r scope3-size;
-#X obj 99 147 s third-freq;
+#X obj 354 427 r scope3-size;
+#X obj 356 539 outlet~;
+#X obj 356 501 *~;
+#X obj 415 539 outlet~;
+#X floatatom 539 261 5 0 0 0 - - -, f 5;
+#X obj 516 290 sig~;
+#X obj 250 428 VS-rotate;
+#X obj 415 501 *~ 1;
+#X obj 414 473 expr~ ($v1 + 1) / 2;
+#X obj 309 349 phasor~;
+#X obj 99 147 s 3d-freq;
+#X obj 309 326 r mic2-freq;
+#X obj 309 372 /~ 8;
 #X connect 2 0 9 0;
 #X connect 3 0 6 0;
 #X connect 3 0 8 0;
 #X connect 4 0 16 0;
-#X connect 4 0 18 0;
-#X connect 5 0 19 0;
+#X connect 4 0 29 0;
+#X connect 5 0 29 1;
 #X connect 6 0 4 0;
 #X connect 7 0 5 0;
 #X connect 8 0 7 0;
 #X connect 9 0 5 1;
 #X connect 9 0 4 1;
 #X connect 10 0 3 0;
-#X connect 10 0 24 0;
+#X connect 10 0 33 0;
 #X connect 11 0 2 0;
 #X connect 12 0 10 0;
 #X connect 13 0 14 0;
@@ -359,9 +368,19 @@
 #X connect 22 0 4 1;
 #X connect 23 0 18 1;
 #X connect 23 0 19 1;
-#X restore 745 167 pd oscilla-third;
-#X obj 749 225 dac~ 3;
-#X obj 797 224 dac~ 8 9;
+#X connect 23 0 25 1;
+#X connect 25 0 24 0;
+#X connect 27 0 28 0;
+#X connect 29 0 18 0;
+#X connect 29 1 19 0;
+#X connect 29 2 25 0;
+#X connect 29 2 31 0;
+#X connect 30 0 26 0;
+#X connect 31 0 30 0;
+#X connect 32 0 35 0;
+#X connect 34 0 32 0;
+#X connect 35 0 29 4;
+#X restore 745 167 pd oscilla-3d;
 #X connect 0 0 1 0;
 #X connect 0 0 3 0;
 #X connect 4 0 0 0;
@@ -372,6 +391,8 @@
 #X connect 16 0 9 0;
 #X connect 16 1 10 0;
 #X connect 16 2 10 1;
-#X connect 19 0 20 0;
-#X connect 19 1 21 0;
-#X connect 19 2 21 1;
+#X connect 21 0 19 0;
+#X connect 21 1 20 0;
+#X connect 21 2 20 1;
+#X connect 21 3 20 2;
+#X connect 21 4 20 3;

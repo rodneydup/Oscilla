@@ -15,8 +15,11 @@ out Vertex {
 }
 vertex;
 
+uniform mat4 al_ModelViewMatrix;
+uniform mat4 al_ProjectionMatrix;
+
 void main() {
-  gl_Position = vec4(vertexPosition, 1.0);
+  gl_Position = al_ModelViewMatrix * vec4(vertexPosition, 1.0);
   vertex.color = vertexColor;
   vertex.size = vertexThickness.x;
 }
@@ -29,6 +32,8 @@ const char *geometryCode = R"(
 //
 layout(lines) in;
 layout(triangle_strip, max_vertices = 4) out;
+
+uniform mat4 al_ProjectionMatrix;
 
 in Vertex {
   vec4 color;
@@ -43,6 +48,7 @@ out Fragment {
 fragment;
 
 void main() {
+  mat4 m = al_ProjectionMatrix;  // rename to make lines shorter
   vec4 a = gl_in[0].gl_Position;
   vec4 b = gl_in[1].gl_Position;
 
@@ -50,22 +56,22 @@ void main() {
 
   vec4 d = vec4(normalize(cross(b.xyz - a.xyz, vec3(0.0, 0.0, 1.0))), 0.0) * r;
 
-  gl_Position = a + d * vertex[0].size;
+  gl_Position = m * (a + d * vertex[0].size);
   fragment.color = vertex[0].color;
   fragment.textureCoordinate = 0.0;
   EmitVertex();
 
-  gl_Position = a - d * vertex[0].size;
+  gl_Position = m * (a - d * vertex[0].size);
   fragment.color = vertex[0].color;
   fragment.textureCoordinate = 1.0;
   EmitVertex();
 
-  gl_Position = b + d * vertex[1].size;
+  gl_Position = m * (b + d * vertex[1].size);
   fragment.color = vertex[1].color;
   fragment.textureCoordinate = 0.0;
   EmitVertex();
 
-  gl_Position = b - d * vertex[1].size;
+  gl_Position = m * (b - d * vertex[1].size);
   fragment.color = vertex[1].color;
   fragment.textureCoordinate = 1.0;
   EmitVertex();

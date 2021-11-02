@@ -1,0 +1,10 @@
+Left: 
+Oscilla1 - the standard old Oscilla
+
+Right: 
+Oscilla2 - tremolo (low frequency ring modulation)
+The frequency of this one is the frequency last sung into Oscilla1 divided by 100
+
+Center:
+Oscilla3 - spinning 3D Oscilla
+The rate of spinning is set by the frequency sung into Oscilla2 divided by 8
