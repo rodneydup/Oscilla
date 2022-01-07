@@ -79,41 +79,41 @@ include build/external/CMakeFiles/serial.dir/flags.make
 build/external/CMakeFiles/serial.dir/serial/src/serial.cc.o: build/external/CMakeFiles/serial.dir/flags.make
 build/external/CMakeFiles/serial.dir/serial/src/serial.cc.o: /home/rondo-udoo/oscilla/allolib/external/serial/src/serial.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rondo-udoo/oscilla/MOXI2021/build/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object build/external/CMakeFiles/serial.dir/serial/src/serial.cc.o"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serial.dir/serial/src/serial.cc.o -c /home/rondo-udoo/oscilla/allolib/external/serial/src/serial.cc
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serial.dir/serial/src/serial.cc.o -c /home/rondo-udoo/oscilla/allolib/external/serial/src/serial.cc
 
 build/external/CMakeFiles/serial.dir/serial/src/serial.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serial.dir/serial/src/serial.cc.i"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/serial/src/serial.cc > CMakeFiles/serial.dir/serial/src/serial.cc.i
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/serial/src/serial.cc > CMakeFiles/serial.dir/serial/src/serial.cc.i
 
 build/external/CMakeFiles/serial.dir/serial/src/serial.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serial.dir/serial/src/serial.cc.s"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/serial/src/serial.cc -o CMakeFiles/serial.dir/serial/src/serial.cc.s
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/serial/src/serial.cc -o CMakeFiles/serial.dir/serial/src/serial.cc.s
 
 build/external/CMakeFiles/serial.dir/serial/src/impl/unix.cc.o: build/external/CMakeFiles/serial.dir/flags.make
 build/external/CMakeFiles/serial.dir/serial/src/impl/unix.cc.o: /home/rondo-udoo/oscilla/allolib/external/serial/src/impl/unix.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rondo-udoo/oscilla/MOXI2021/build/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object build/external/CMakeFiles/serial.dir/serial/src/impl/unix.cc.o"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serial.dir/serial/src/impl/unix.cc.o -c /home/rondo-udoo/oscilla/allolib/external/serial/src/impl/unix.cc
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serial.dir/serial/src/impl/unix.cc.o -c /home/rondo-udoo/oscilla/allolib/external/serial/src/impl/unix.cc
 
 build/external/CMakeFiles/serial.dir/serial/src/impl/unix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serial.dir/serial/src/impl/unix.cc.i"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/serial/src/impl/unix.cc > CMakeFiles/serial.dir/serial/src/impl/unix.cc.i
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/serial/src/impl/unix.cc > CMakeFiles/serial.dir/serial/src/impl/unix.cc.i
 
 build/external/CMakeFiles/serial.dir/serial/src/impl/unix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serial.dir/serial/src/impl/unix.cc.s"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/serial/src/impl/unix.cc -o CMakeFiles/serial.dir/serial/src/impl/unix.cc.s
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/serial/src/impl/unix.cc -o CMakeFiles/serial.dir/serial/src/impl/unix.cc.s
 
 build/external/CMakeFiles/serial.dir/serial/src/impl/list_ports/list_ports_linux.cc.o: build/external/CMakeFiles/serial.dir/flags.make
 build/external/CMakeFiles/serial.dir/serial/src/impl/list_ports/list_ports_linux.cc.o: /home/rondo-udoo/oscilla/allolib/external/serial/src/impl/list_ports/list_ports_linux.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rondo-udoo/oscilla/MOXI2021/build/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object build/external/CMakeFiles/serial.dir/serial/src/impl/list_ports/list_ports_linux.cc.o"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serial.dir/serial/src/impl/list_ports/list_ports_linux.cc.o -c /home/rondo-udoo/oscilla/allolib/external/serial/src/impl/list_ports/list_ports_linux.cc
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serial.dir/serial/src/impl/list_ports/list_ports_linux.cc.o -c /home/rondo-udoo/oscilla/allolib/external/serial/src/impl/list_ports/list_ports_linux.cc
 
 build/external/CMakeFiles/serial.dir/serial/src/impl/list_ports/list_ports_linux.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serial.dir/serial/src/impl/list_ports/list_ports_linux.cc.i"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/serial/src/impl/list_ports/list_ports_linux.cc > CMakeFiles/serial.dir/serial/src/impl/list_ports/list_ports_linux.cc.i
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/serial/src/impl/list_ports/list_ports_linux.cc > CMakeFiles/serial.dir/serial/src/impl/list_ports/list_ports_linux.cc.i
 
 build/external/CMakeFiles/serial.dir/serial/src/impl/list_ports/list_ports_linux.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serial.dir/serial/src/impl/list_ports/list_ports_linux.cc.s"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/serial/src/impl/list_ports/list_ports_linux.cc -o CMakeFiles/serial.dir/serial/src/impl/list_ports/list_ports_linux.cc.s
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/serial/src/impl/list_ports/list_ports_linux.cc -o CMakeFiles/serial.dir/serial/src/impl/list_ports/list_ports_linux.cc.s
 
 # Object files for target serial
 serial_OBJECTS = \

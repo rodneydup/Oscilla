@@ -79,28 +79,28 @@ include build/external/rtaudio/CMakeFiles/rtaudio.dir/flags.make
 build/external/rtaudio/CMakeFiles/rtaudio.dir/RtAudio.cpp.o: build/external/rtaudio/CMakeFiles/rtaudio.dir/flags.make
 build/external/rtaudio/CMakeFiles/rtaudio.dir/RtAudio.cpp.o: /home/rondo-udoo/oscilla/allolib/external/rtaudio/RtAudio.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rondo-udoo/oscilla/MOXI2021/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object build/external/rtaudio/CMakeFiles/rtaudio.dir/RtAudio.cpp.o"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/rtaudio && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rtaudio.dir/RtAudio.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/rtaudio/RtAudio.cpp
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/rtaudio && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rtaudio.dir/RtAudio.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/rtaudio/RtAudio.cpp
 
 build/external/rtaudio/CMakeFiles/rtaudio.dir/RtAudio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rtaudio.dir/RtAudio.cpp.i"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/rtaudio && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/rtaudio/RtAudio.cpp > CMakeFiles/rtaudio.dir/RtAudio.cpp.i
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/rtaudio && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/rtaudio/RtAudio.cpp > CMakeFiles/rtaudio.dir/RtAudio.cpp.i
 
 build/external/rtaudio/CMakeFiles/rtaudio.dir/RtAudio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rtaudio.dir/RtAudio.cpp.s"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/rtaudio && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/rtaudio/RtAudio.cpp -o CMakeFiles/rtaudio.dir/RtAudio.cpp.s
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/rtaudio && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/rtaudio/RtAudio.cpp -o CMakeFiles/rtaudio.dir/RtAudio.cpp.s
 
 build/external/rtaudio/CMakeFiles/rtaudio.dir/rtaudio_c.cpp.o: build/external/rtaudio/CMakeFiles/rtaudio.dir/flags.make
 build/external/rtaudio/CMakeFiles/rtaudio.dir/rtaudio_c.cpp.o: /home/rondo-udoo/oscilla/allolib/external/rtaudio/rtaudio_c.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rondo-udoo/oscilla/MOXI2021/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object build/external/rtaudio/CMakeFiles/rtaudio.dir/rtaudio_c.cpp.o"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/rtaudio && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rtaudio.dir/rtaudio_c.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/rtaudio/rtaudio_c.cpp
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/rtaudio && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rtaudio.dir/rtaudio_c.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/rtaudio/rtaudio_c.cpp
 
 build/external/rtaudio/CMakeFiles/rtaudio.dir/rtaudio_c.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rtaudio.dir/rtaudio_c.cpp.i"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/rtaudio && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/rtaudio/rtaudio_c.cpp > CMakeFiles/rtaudio.dir/rtaudio_c.cpp.i
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/rtaudio && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/rtaudio/rtaudio_c.cpp > CMakeFiles/rtaudio.dir/rtaudio_c.cpp.i
 
 build/external/rtaudio/CMakeFiles/rtaudio.dir/rtaudio_c.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rtaudio.dir/rtaudio_c.cpp.s"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/rtaudio && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/rtaudio/rtaudio_c.cpp -o CMakeFiles/rtaudio.dir/rtaudio_c.cpp.s
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/rtaudio && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/rtaudio/rtaudio_c.cpp -o CMakeFiles/rtaudio.dir/rtaudio_c.cpp.s
 
 # Object files for target rtaudio
 rtaudio_OBJECTS = \

@@ -79,15 +79,15 @@ include CMakeFiles/Oscilla.dir/flags.make
 CMakeFiles/Oscilla.dir/src/Oscilla.cpp.o: CMakeFiles/Oscilla.dir/flags.make
 CMakeFiles/Oscilla.dir/src/Oscilla.cpp.o: ../../src/Oscilla.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rondo-udoo/oscilla/MOXI2021/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Oscilla.dir/src/Oscilla.cpp.o"
-	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Oscilla.dir/src/Oscilla.cpp.o -c /home/rondo-udoo/oscilla/MOXI2021/src/Oscilla.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Oscilla.dir/src/Oscilla.cpp.o -c /home/rondo-udoo/oscilla/MOXI2021/src/Oscilla.cpp
 
 CMakeFiles/Oscilla.dir/src/Oscilla.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Oscilla.dir/src/Oscilla.cpp.i"
-	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/MOXI2021/src/Oscilla.cpp > CMakeFiles/Oscilla.dir/src/Oscilla.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/MOXI2021/src/Oscilla.cpp > CMakeFiles/Oscilla.dir/src/Oscilla.cpp.i
 
 CMakeFiles/Oscilla.dir/src/Oscilla.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Oscilla.dir/src/Oscilla.cpp.s"
-	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/MOXI2021/src/Oscilla.cpp -o CMakeFiles/Oscilla.dir/src/Oscilla.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/MOXI2021/src/Oscilla.cpp -o CMakeFiles/Oscilla.dir/src/Oscilla.cpp.s
 
 # Object files for target Oscilla
 Oscilla_OBJECTS = \

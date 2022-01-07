@@ -79,28 +79,28 @@ include build/external/rtmidi/CMakeFiles/rtmidi.dir/flags.make
 build/external/rtmidi/CMakeFiles/rtmidi.dir/RtMidi.cpp.o: build/external/rtmidi/CMakeFiles/rtmidi.dir/flags.make
 build/external/rtmidi/CMakeFiles/rtmidi.dir/RtMidi.cpp.o: /home/rondo-udoo/oscilla/allolib/external/rtmidi/RtMidi.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rondo-udoo/oscilla/MOXI2021/build/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object build/external/rtmidi/CMakeFiles/rtmidi.dir/RtMidi.cpp.o"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external/rtmidi && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rtmidi.dir/RtMidi.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/rtmidi/RtMidi.cpp
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external/rtmidi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rtmidi.dir/RtMidi.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/rtmidi/RtMidi.cpp
 
 build/external/rtmidi/CMakeFiles/rtmidi.dir/RtMidi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rtmidi.dir/RtMidi.cpp.i"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external/rtmidi && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/rtmidi/RtMidi.cpp > CMakeFiles/rtmidi.dir/RtMidi.cpp.i
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external/rtmidi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/rtmidi/RtMidi.cpp > CMakeFiles/rtmidi.dir/RtMidi.cpp.i
 
 build/external/rtmidi/CMakeFiles/rtmidi.dir/RtMidi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rtmidi.dir/RtMidi.cpp.s"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external/rtmidi && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/rtmidi/RtMidi.cpp -o CMakeFiles/rtmidi.dir/RtMidi.cpp.s
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external/rtmidi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/rtmidi/RtMidi.cpp -o CMakeFiles/rtmidi.dir/RtMidi.cpp.s
 
 build/external/rtmidi/CMakeFiles/rtmidi.dir/rtmidi_c.cpp.o: build/external/rtmidi/CMakeFiles/rtmidi.dir/flags.make
 build/external/rtmidi/CMakeFiles/rtmidi.dir/rtmidi_c.cpp.o: /home/rondo-udoo/oscilla/allolib/external/rtmidi/rtmidi_c.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rondo-udoo/oscilla/MOXI2021/build/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object build/external/rtmidi/CMakeFiles/rtmidi.dir/rtmidi_c.cpp.o"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external/rtmidi && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rtmidi.dir/rtmidi_c.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/rtmidi/rtmidi_c.cpp
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external/rtmidi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rtmidi.dir/rtmidi_c.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/rtmidi/rtmidi_c.cpp
 
 build/external/rtmidi/CMakeFiles/rtmidi.dir/rtmidi_c.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rtmidi.dir/rtmidi_c.cpp.i"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external/rtmidi && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/rtmidi/rtmidi_c.cpp > CMakeFiles/rtmidi.dir/rtmidi_c.cpp.i
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external/rtmidi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/rtmidi/rtmidi_c.cpp > CMakeFiles/rtmidi.dir/rtmidi_c.cpp.i
 
 build/external/rtmidi/CMakeFiles/rtmidi.dir/rtmidi_c.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rtmidi.dir/rtmidi_c.cpp.s"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external/rtmidi && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/rtmidi/rtmidi_c.cpp -o CMakeFiles/rtmidi.dir/rtmidi_c.cpp.s
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/debug/build/external/rtmidi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/rtmidi/rtmidi_c.cpp -o CMakeFiles/rtmidi.dir/rtmidi_c.cpp.s
 
 # Object files for target rtmidi
 rtmidi_OBJECTS = \

@@ -302,7 +302,6 @@ int main() {
   Oscilla app;
   app.title("Oscilla");
 
-  // find soundflower exact name and make that default audio device
   int x = 0;
   std::string s2 = "pure_data";
   for (int i = 0; i < AudioDevice::numDevices(); i++) {
@@ -315,7 +314,6 @@ int main() {
   AudioDevice dev(x);
   dev.print();
 
-  // find soundflower exact name and make that default audio device
   app.configureAudio(dev, 48000, 1024, 0, 11);
   app.start();
   return 0;

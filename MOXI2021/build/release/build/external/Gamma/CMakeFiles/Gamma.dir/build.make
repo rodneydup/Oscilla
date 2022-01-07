@@ -79,171 +79,171 @@ include build/external/Gamma/CMakeFiles/Gamma.dir/flags.make
 build/external/Gamma/CMakeFiles/Gamma.dir/src/arr.cpp.o: build/external/Gamma/CMakeFiles/Gamma.dir/flags.make
 build/external/Gamma/CMakeFiles/Gamma.dir/src/arr.cpp.o: /home/rondo-udoo/oscilla/allolib/external/Gamma/src/arr.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rondo-udoo/oscilla/MOXI2021/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object build/external/Gamma/CMakeFiles/Gamma.dir/src/arr.cpp.o"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/arr.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/arr.cpp
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/arr.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/arr.cpp
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/arr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gamma.dir/src/arr.cpp.i"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/arr.cpp > CMakeFiles/Gamma.dir/src/arr.cpp.i
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/arr.cpp > CMakeFiles/Gamma.dir/src/arr.cpp.i
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/arr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gamma.dir/src/arr.cpp.s"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/arr.cpp -o CMakeFiles/Gamma.dir/src/arr.cpp.s
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/arr.cpp -o CMakeFiles/Gamma.dir/src/arr.cpp.s
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Conversion.cpp.o: build/external/Gamma/CMakeFiles/Gamma.dir/flags.make
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Conversion.cpp.o: /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Conversion.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rondo-udoo/oscilla/MOXI2021/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object build/external/Gamma/CMakeFiles/Gamma.dir/src/Conversion.cpp.o"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/Conversion.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Conversion.cpp
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/Conversion.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Conversion.cpp
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Conversion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gamma.dir/src/Conversion.cpp.i"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Conversion.cpp > CMakeFiles/Gamma.dir/src/Conversion.cpp.i
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Conversion.cpp > CMakeFiles/Gamma.dir/src/Conversion.cpp.i
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Conversion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gamma.dir/src/Conversion.cpp.s"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Conversion.cpp -o CMakeFiles/Gamma.dir/src/Conversion.cpp.s
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Conversion.cpp -o CMakeFiles/Gamma.dir/src/Conversion.cpp.s
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/DFT.cpp.o: build/external/Gamma/CMakeFiles/Gamma.dir/flags.make
 build/external/Gamma/CMakeFiles/Gamma.dir/src/DFT.cpp.o: /home/rondo-udoo/oscilla/allolib/external/Gamma/src/DFT.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rondo-udoo/oscilla/MOXI2021/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object build/external/Gamma/CMakeFiles/Gamma.dir/src/DFT.cpp.o"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/DFT.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/DFT.cpp
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/DFT.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/DFT.cpp
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/DFT.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gamma.dir/src/DFT.cpp.i"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/DFT.cpp > CMakeFiles/Gamma.dir/src/DFT.cpp.i
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/DFT.cpp > CMakeFiles/Gamma.dir/src/DFT.cpp.i
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/DFT.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gamma.dir/src/DFT.cpp.s"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/DFT.cpp -o CMakeFiles/Gamma.dir/src/DFT.cpp.s
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/DFT.cpp -o CMakeFiles/Gamma.dir/src/DFT.cpp.s
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Domain.cpp.o: build/external/Gamma/CMakeFiles/Gamma.dir/flags.make
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Domain.cpp.o: /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Domain.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rondo-udoo/oscilla/MOXI2021/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object build/external/Gamma/CMakeFiles/Gamma.dir/src/Domain.cpp.o"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/Domain.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Domain.cpp
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/Domain.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Domain.cpp
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Domain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gamma.dir/src/Domain.cpp.i"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Domain.cpp > CMakeFiles/Gamma.dir/src/Domain.cpp.i
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Domain.cpp > CMakeFiles/Gamma.dir/src/Domain.cpp.i
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Domain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gamma.dir/src/Domain.cpp.s"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Domain.cpp -o CMakeFiles/Gamma.dir/src/Domain.cpp.s
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Domain.cpp -o CMakeFiles/Gamma.dir/src/Domain.cpp.s
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/FFT_fftpack.cpp.o: build/external/Gamma/CMakeFiles/Gamma.dir/flags.make
 build/external/Gamma/CMakeFiles/Gamma.dir/src/FFT_fftpack.cpp.o: /home/rondo-udoo/oscilla/allolib/external/Gamma/src/FFT_fftpack.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rondo-udoo/oscilla/MOXI2021/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object build/external/Gamma/CMakeFiles/Gamma.dir/src/FFT_fftpack.cpp.o"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/FFT_fftpack.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/FFT_fftpack.cpp
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/FFT_fftpack.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/FFT_fftpack.cpp
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/FFT_fftpack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gamma.dir/src/FFT_fftpack.cpp.i"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/FFT_fftpack.cpp > CMakeFiles/Gamma.dir/src/FFT_fftpack.cpp.i
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/FFT_fftpack.cpp > CMakeFiles/Gamma.dir/src/FFT_fftpack.cpp.i
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/FFT_fftpack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gamma.dir/src/FFT_fftpack.cpp.s"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/FFT_fftpack.cpp -o CMakeFiles/Gamma.dir/src/FFT_fftpack.cpp.s
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/FFT_fftpack.cpp -o CMakeFiles/Gamma.dir/src/FFT_fftpack.cpp.s
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/fftpack++1.cpp.o: build/external/Gamma/CMakeFiles/Gamma.dir/flags.make
 build/external/Gamma/CMakeFiles/Gamma.dir/src/fftpack++1.cpp.o: /home/rondo-udoo/oscilla/allolib/external/Gamma/src/fftpack++1.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rondo-udoo/oscilla/MOXI2021/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object build/external/Gamma/CMakeFiles/Gamma.dir/src/fftpack++1.cpp.o"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/fftpack++1.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/fftpack++1.cpp
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/fftpack++1.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/fftpack++1.cpp
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/fftpack++1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gamma.dir/src/fftpack++1.cpp.i"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/fftpack++1.cpp > CMakeFiles/Gamma.dir/src/fftpack++1.cpp.i
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/fftpack++1.cpp > CMakeFiles/Gamma.dir/src/fftpack++1.cpp.i
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/fftpack++1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gamma.dir/src/fftpack++1.cpp.s"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/fftpack++1.cpp -o CMakeFiles/Gamma.dir/src/fftpack++1.cpp.s
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/fftpack++1.cpp -o CMakeFiles/Gamma.dir/src/fftpack++1.cpp.s
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/fftpack++2.cpp.o: build/external/Gamma/CMakeFiles/Gamma.dir/flags.make
 build/external/Gamma/CMakeFiles/Gamma.dir/src/fftpack++2.cpp.o: /home/rondo-udoo/oscilla/allolib/external/Gamma/src/fftpack++2.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rondo-udoo/oscilla/MOXI2021/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object build/external/Gamma/CMakeFiles/Gamma.dir/src/fftpack++2.cpp.o"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/fftpack++2.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/fftpack++2.cpp
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/fftpack++2.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/fftpack++2.cpp
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/fftpack++2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gamma.dir/src/fftpack++2.cpp.i"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/fftpack++2.cpp > CMakeFiles/Gamma.dir/src/fftpack++2.cpp.i
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/fftpack++2.cpp > CMakeFiles/Gamma.dir/src/fftpack++2.cpp.i
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/fftpack++2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gamma.dir/src/fftpack++2.cpp.s"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/fftpack++2.cpp -o CMakeFiles/Gamma.dir/src/fftpack++2.cpp.s
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/fftpack++2.cpp -o CMakeFiles/Gamma.dir/src/fftpack++2.cpp.s
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Print.cpp.o: build/external/Gamma/CMakeFiles/Gamma.dir/flags.make
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Print.cpp.o: /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Print.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rondo-udoo/oscilla/MOXI2021/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object build/external/Gamma/CMakeFiles/Gamma.dir/src/Print.cpp.o"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/Print.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Print.cpp
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/Print.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Print.cpp
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Print.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gamma.dir/src/Print.cpp.i"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Print.cpp > CMakeFiles/Gamma.dir/src/Print.cpp.i
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Print.cpp > CMakeFiles/Gamma.dir/src/Print.cpp.i
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Print.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gamma.dir/src/Print.cpp.s"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Print.cpp -o CMakeFiles/Gamma.dir/src/Print.cpp.s
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Print.cpp -o CMakeFiles/Gamma.dir/src/Print.cpp.s
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/scl.cpp.o: build/external/Gamma/CMakeFiles/Gamma.dir/flags.make
 build/external/Gamma/CMakeFiles/Gamma.dir/src/scl.cpp.o: /home/rondo-udoo/oscilla/allolib/external/Gamma/src/scl.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rondo-udoo/oscilla/MOXI2021/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object build/external/Gamma/CMakeFiles/Gamma.dir/src/scl.cpp.o"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/scl.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/scl.cpp
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/scl.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/scl.cpp
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/scl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gamma.dir/src/scl.cpp.i"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/scl.cpp > CMakeFiles/Gamma.dir/src/scl.cpp.i
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/scl.cpp > CMakeFiles/Gamma.dir/src/scl.cpp.i
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/scl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gamma.dir/src/scl.cpp.s"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/scl.cpp -o CMakeFiles/Gamma.dir/src/scl.cpp.s
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/scl.cpp -o CMakeFiles/Gamma.dir/src/scl.cpp.s
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Recorder.cpp.o: build/external/Gamma/CMakeFiles/Gamma.dir/flags.make
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Recorder.cpp.o: /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Recorder.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rondo-udoo/oscilla/MOXI2021/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object build/external/Gamma/CMakeFiles/Gamma.dir/src/Recorder.cpp.o"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/Recorder.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Recorder.cpp
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/Recorder.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Recorder.cpp
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Recorder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gamma.dir/src/Recorder.cpp.i"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Recorder.cpp > CMakeFiles/Gamma.dir/src/Recorder.cpp.i
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Recorder.cpp > CMakeFiles/Gamma.dir/src/Recorder.cpp.i
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Recorder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gamma.dir/src/Recorder.cpp.s"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Recorder.cpp -o CMakeFiles/Gamma.dir/src/Recorder.cpp.s
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Recorder.cpp -o CMakeFiles/Gamma.dir/src/Recorder.cpp.s
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Scheduler.cpp.o: build/external/Gamma/CMakeFiles/Gamma.dir/flags.make
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Scheduler.cpp.o: /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Scheduler.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rondo-udoo/oscilla/MOXI2021/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object build/external/Gamma/CMakeFiles/Gamma.dir/src/Scheduler.cpp.o"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/Scheduler.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Scheduler.cpp
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/Scheduler.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Scheduler.cpp
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Scheduler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gamma.dir/src/Scheduler.cpp.i"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Scheduler.cpp > CMakeFiles/Gamma.dir/src/Scheduler.cpp.i
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Scheduler.cpp > CMakeFiles/Gamma.dir/src/Scheduler.cpp.i
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Scheduler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gamma.dir/src/Scheduler.cpp.s"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Scheduler.cpp -o CMakeFiles/Gamma.dir/src/Scheduler.cpp.s
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Scheduler.cpp -o CMakeFiles/Gamma.dir/src/Scheduler.cpp.s
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Timer.cpp.o: build/external/Gamma/CMakeFiles/Gamma.dir/flags.make
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Timer.cpp.o: /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Timer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rondo-udoo/oscilla/MOXI2021/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object build/external/Gamma/CMakeFiles/Gamma.dir/src/Timer.cpp.o"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/Timer.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Timer.cpp
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/Timer.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Timer.cpp
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gamma.dir/src/Timer.cpp.i"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Timer.cpp > CMakeFiles/Gamma.dir/src/Timer.cpp.i
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Timer.cpp > CMakeFiles/Gamma.dir/src/Timer.cpp.i
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/Timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gamma.dir/src/Timer.cpp.s"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Timer.cpp -o CMakeFiles/Gamma.dir/src/Timer.cpp.s
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/Timer.cpp -o CMakeFiles/Gamma.dir/src/Timer.cpp.s
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/SoundFile.cpp.o: build/external/Gamma/CMakeFiles/Gamma.dir/flags.make
 build/external/Gamma/CMakeFiles/Gamma.dir/src/SoundFile.cpp.o: /home/rondo-udoo/oscilla/allolib/external/Gamma/src/SoundFile.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rondo-udoo/oscilla/MOXI2021/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object build/external/Gamma/CMakeFiles/Gamma.dir/src/SoundFile.cpp.o"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/SoundFile.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/SoundFile.cpp
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gamma.dir/src/SoundFile.cpp.o -c /home/rondo-udoo/oscilla/allolib/external/Gamma/src/SoundFile.cpp
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/SoundFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gamma.dir/src/SoundFile.cpp.i"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/SoundFile.cpp > CMakeFiles/Gamma.dir/src/SoundFile.cpp.i
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rondo-udoo/oscilla/allolib/external/Gamma/src/SoundFile.cpp > CMakeFiles/Gamma.dir/src/SoundFile.cpp.i
 
 build/external/Gamma/CMakeFiles/Gamma.dir/src/SoundFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gamma.dir/src/SoundFile.cpp.s"
-	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/SoundFile.cpp -o CMakeFiles/Gamma.dir/src/SoundFile.cpp.s
+	cd /home/rondo-udoo/oscilla/MOXI2021/build/release/build/external/Gamma && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rondo-udoo/oscilla/allolib/external/Gamma/src/SoundFile.cpp -o CMakeFiles/Gamma.dir/src/SoundFile.cpp.s
 
 # Object files for target Gamma
 Gamma_OBJECTS = \
