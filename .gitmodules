@@ -1,0 +1,4 @@
+[submodule "allolib"]
+	path = allolib
+	url = https://github.com/AlloSphere-Research-Group/allolib
+	branch = f5798a2d886f07f6ae85e0670639281ed0643ede
